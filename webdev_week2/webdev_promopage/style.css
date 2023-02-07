@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Mauricio";
+  src: url('fonts/Mauricio.ttf');
+}
+
+@font-face {
+  font-family: "Classic Rock";
+  src: url('fonts/ClassicRock.ttf');
+}
+
+@font-face {
+  font-family: "Znikomit";
+  src: url('fonts/Znikomit.otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+h1 {
+  font-family: 'Mauricio'; 
+  font-size: 60px;
+  color: yellow;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #FFC107;
+  margin-bottom: 64px;
+  margin-top: 0;
+}
+
+span {
+  font-family: 'Mauricio'; 
+  font-size: 30px;
+  color: yellow;
+  margin-bottom: 0;
+}
+
+.overlay {
+    position:absolute;
+    text-align: center;
+    top:0px;
+    left:600px;
+    z-index:1;
+}
+
+.qanda {
+    position:absolute;
+    text-align: center;
+    top:780px;
+    left:400px;
+    z-index:1;
+}
+
+
+#background {
+  position: relative;
+}
+
+.header1 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.image1 {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  z-index: 2;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Classic Rock';
+  color: green;
+}
+
+
+#submit {
+  font-family: 'Mauricio';
+  font-size: 30px;
+  padding: 10px;
+  left: 20px;
+  color: orange;
+}
+
+#search {
+  font-family: 'Classic Rock';
+  padding: 8px;
+  min-width: 300px;
+  margin-bottom: 64px;
+}
+
+#posvideo {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 1000vw;
+  height: 1000vh;
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+#bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
