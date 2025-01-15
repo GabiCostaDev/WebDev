@@ -1,7 +1,7 @@
 # Web Dev
 
 ## Description 
-    A couple front-end projects completed during undergrad.
+A couple of front-end projects completed during undergrad.
 
 ## Table of Contents 
    1. [Portfolio Website](PortfolioWebsite/)
